@@ -1,0 +1,15 @@
+{
+    "banner.code4": "Продукт Code for Romania.",
+    "banner.more": "Дізнатися більше",
+    "banner.partnership": "Проект у партнерстві з",
+    "banner.madeby": "створено",
+
+    "app.search.placeholder": "Пошук",
+    "app.search.results": "Результати пошуку для “:query”",
+    "app.search.empty": "Материалов не найдено.",
+
+    "pagination.previous": "Наступна",
+    "pagination.next": "Попередня",
+
+    "footer.contact": "Якщо ви хочете повідомити про будь-які помилки, невідповідності чи упущення, будь ласка, повідомте нам, написавши електронного листа на адресу [dopomoha@code4.ro](mailto:dopomoha@code4.ro). Ми зробимо все можливе, щоб інтегрувати ваші відгуки."
+}
