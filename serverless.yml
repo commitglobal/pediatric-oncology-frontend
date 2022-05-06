@@ -71,11 +71,11 @@ functions:
 
 constructs:
   website:
-    # domain:
-    # - ukrainechildcancerhelp.ro
-    # - www.ukrainechildcancerhelp.ro
-    # redirectToMainDomain: true
-    # certificate: ${ssm:/ukrainechildcancerhelp/certificate-arn}
+    domain:
+      - ukrainechildcancerhelp.ro
+      - www.ukrainechildcancerhelp.ro
+    redirectToMainDomain: true
+    certificate: ${ssm:/ukrainechildcancerhelp/certificate-arn}
     type: server-side-website
     assets:
       '/assets/*': public/assets
@@ -89,10 +89,10 @@ constructs:
       - Content-Type
       - Origin
       - Referer
-      - User-Agent
       - X-Forwarded-Host
       - X-XSRF-TOKEN
       - X-INERTIA
+      - X-INERTIA-VERSION
 
 plugins:
   - ./vendor/bref/bref
